@@ -1,0 +1,31 @@
+
+ <div class="row">
+    <div class="col-sm-2" ></div>
+    <div class="col-sm-8" > <table class="table table-hover ">
+        <thead  class="table-dark">
+          <tr>
+            <th scope="col" colspan="2" class="Heading" style="text-align: center;">Product Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Id</td>
+            <td>{{code}}</td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>{{product.name}}</td>
+          </tr>
+          <tr>
+            <td>Entry Date</td>
+            <td>{{product.entryDate | date}}</td>
+          </tr>
+          <tr>
+            <td>Price for today (incl. reduction)</td>
+            <td>{{product.price}}</td>
+          </tr>
+        </tbody>
+      </table></div>
+    <div class="col-sm-2" ></div>
+  </div>
+  
